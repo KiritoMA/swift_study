@@ -16,6 +16,7 @@ print(c)
 
 var str = "Hello"
 str=str+",Yingjie"
+str="\(str),aeiou,\(100)"
 print(str)
 
 
