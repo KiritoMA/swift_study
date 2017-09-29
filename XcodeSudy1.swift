@@ -18,5 +18,9 @@ var str = "Hello"
 str=str+",Yingjie"
 str="\(str),aeiou,\(100)"
 print(str)
-
+//----------------------
+var dict=["name":"Yingjie","age":"23"]
+dict["sex"]="Male"
+print(dict)
+print(dict["name"])
 
