@@ -39,5 +39,9 @@ class ViewController: UIViewController {
         let name : String?="Yingjie"
         print("Hello "+(name ?? ""))
     }
+    func demo5()  {
+        let oName = "Yingjie"
+        let age = 10
+        print(oName , String(age))
 
 
