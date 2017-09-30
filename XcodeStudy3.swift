@@ -24,7 +24,12 @@ class ViewController: UIViewController {
         }else{print("less then")}
         
     }
-    
+    //三目
+    func demo1(){
+        let x = 10
+        x>5 ? print("大了") : print("小了")
+        
+    }
     }
 
 
