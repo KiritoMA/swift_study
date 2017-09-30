@@ -34,6 +34,10 @@ class ViewController: UIViewController {
         //强行解包，可参与运算
         print(x!+y!)
     }
+    func demo4(x:integer_t?,y:integer_t?)  {
+        print((x ?? 0)+(y ?? 0))
+        let name : String?="Yingjie"
+        print("Hello "+(name ?? ""))
     }
 
 
